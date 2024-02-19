@@ -1,0 +1,27 @@
+name: mn_641463003
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+environment:
+  sdk: ">=3.2.5 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3 #เวอร์ชั่นล่าสุด
+  intl: ^0.17.0 # หรือเวอร์ชันล่าสุด
+  google_maps_flutter: ^2.5.0
+  location: ^5.0.3
+  cupertino_icons: ^1.0.2
+  geolocator: ^7.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - image/
+
+  uses-material-design: true
